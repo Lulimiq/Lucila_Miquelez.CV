@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicom/favicon-32x32.png">
+    <title>Trabajo Final CV Lucila Miquelez</title>
+</head>
+<body>
+  <section class="inicio" id="inicio">
+    <div class="contenido-seccion">
+        <header> 
+            <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                 <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav id="nav" class="nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobremi">Conóceme</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <div class="logo">
+                L<span class="color">M</span>
+            </div>
+        </header>
+            <div class="info">
+                <h1> Lucila Miquelez</h1>
+                <h2> Junior developer </h2>
+            </div>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+             </div>
+            <div class="foto">
+                <img src="lucilamiquelez.jpg" alt="Foto Lucila Miquelez"> 
+
+            </div>
+        </div>
+        </section>
+               
+        <!-- CONOCEME -->
+    <section class="conoceme" id="conoceme">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Conóceme</h2>
+            <h3>Detalles personales</h3>
+
+            <p class="especial">Mi pasión es lograr el desarrollo de los proyectos que me proponen </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, nobis! Sit, veniam aut omnis est suscipit itaque tempore fugiat! Repellat, necessitatibus. Neque quis, reprehenderit fugit dolore voluptate nam eum reiciendis!</p>
+
+          <div class="fila"> 
+                <div class="col">
+                    <i class="fa-solid fa-user" id="per"></i>
+                    <span class="titulo-detalle" >Perfil</span>
+                    <p id="perfil" style="display:none">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-location-pin" id="ubi"></i>
+                    <span class="titulo-detalle">Ubicación</span>
+                    <p id="ubicacion" style="display:none">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-flag" id="int"></i>
+                    <span class="titulo-detalle">Intereses</span>
+                    <p id="intereses" style="display:none">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MIS HABILIDADES -->
+     <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis habilidades</h2>
+            <h3 class="subtitulo">Me especializo en</h3>
+                    <ul> 
+                        <li>
+                            <p id="html" style="display:none"><a href="pagina2cv.html" target="_blank">Conoce mis habilidades en html</a></p>
+
+                            <button class="botonhab" type="button" id="boton">HTML</button>
+                        </li> 
+
+                        <li><p id="css" style="display:none"><a href="pagina3cv.html" target="_blank">Conoce mis habilidades en CSS</a></p>
+
+                            <button class="botonhab" type="button" id="boton2">CSS</button></li>
+                        
+                            <li id="leng">Lenguajes de Programacion
+                             <ul>
+                                <li><p id="js" style="display:none"><a href="pagina4cv.html" target="_blank">Conoce mis habilidades en JavaScript</a></p>
+
+                                    <button class="botonhab" type="button" id="boton3">JavaScript</button></li>
+                                
+                                    <li><p id="rubi" style="display:none"><a href="pagina5cv.html" target="_blank">Conoce mis habilidades en Rubi</a></p>
+
+                                <button class="botonhab" type="button" id="boton4">Rubi</button></li>
+                             </ul>
+                        </li>
+                    </ul>
+        </div>
+     </section>
+     
+      <!-- PREPARACION Y EXPERIENCIA -->
+    <section class="resumen" id="resumen">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">RESUMEN</h2>
+            <h3>Mi preparación y experiencia</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Educación</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2008 - 2015</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Lic. en Nutrición</h4>
+                                <p>Universidad de Buenos Aires</p>
+                                <span class="promedio">8.0 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2020 - 2023</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Programadora</h4>
+                                <p>Academy Cursos</p>
+                                <span class="promedio">9.5 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Experiencia Laboral</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>3 Años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Empresa de mis sueños</h4>
+                                <p>Programador Junior</p>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2 Años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Empresa imaginaria</h4>
+                                <p>Programadora Senior</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">CONTACTO</h2>
+            <h3>Ponte en contacto conmigo!</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i>Teléfono
+                        <button class="botoncontacto" id="numero">ver número</button> 
+                    </h2>
+                    <span id="telefono" style="display:none">11-11111111</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> Correo
+                        <button class="botoncontacto" id="correo">ver correo</button> 
+                    </h2>
+                    <span id="email" style="display:none">lucila.miquelez@gmail.com</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-globe"></i> Página Web
+                        <button class="botoncontacto" id="pagina">ver página</button> 
+                    </h2>
+                    <span id="pag" style="display:none">http//lucilamiquelez.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<div class="formulario">
+    <h3 id="form">Envíame tus datos y me pondré en contacto contigo</h3>
+    <form> 
+        <label class="datos-cont">Nombre y Apellido
+            <input type="text" id="nombre-app" required> 
+        </label>
+        <label class="datos-cont">Teléfono
+            <input type='numero' id="tel-contacto" required>
+        </label>
+        <label class="datos-cont">Correo
+            <input type="email" id="mail" required>
+        </label class="datos-cont" >
+        <button type="submit" id="formulario">Enviar datos</button>
+    </form>
+</div>
+
+    <script src="cv.js"></script>
+</body>
+</html>
+
+
+
